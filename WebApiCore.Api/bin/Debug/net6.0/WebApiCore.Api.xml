@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiCore.Api</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiCore.Api.Controllers.CustomersController.Get">
+            <summary>
+            Get All Customers
+            </summary>
+            <remarks>
+            Sample request:
+            
+                GET: /api/customers    
+            
+            </remarks>
+            <returns>A list of existed customers</returns>
+            <response code="200">Succes</response>
+            <response code="400">If error occurs</response>
+            <response code="404">If no customers in database</response>
+        </member>
+    </members>
+</doc>
